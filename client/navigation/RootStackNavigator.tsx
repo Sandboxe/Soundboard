@@ -1,6 +1,6 @@
 import React from "react";
+import { Pressable, StyleSheet } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { HeaderButton } from "@react-navigation/elements";
 import { Feather } from "@expo/vector-icons";
 import HomeScreen from "@/screens/HomeScreen";
 import SettingsScreen from "@/screens/SettingsScreen";
@@ -28,12 +28,17 @@ export default function RootStackNavigator() {
         options={({ navigation }) => ({
           headerTitle: () => <HeaderTitle title="Sound Board" />,
           headerRight: () => (
-            <HeaderButton
+            <Pressable
               onPress={() => navigation.navigate("Settings")}
               accessibilityLabel="Settings"
+              accessibilityRole="button"
+              style={({ pressed }) => [
+                styles.headerButton,
+                pressed && styles.headerButtonPressed,
+              ]}
             >
               <Feather name="settings" size={22} color={theme.text} />
-            </HeaderButton>
+            </Pressable>
           ),
         })}
       />
@@ -48,3 +53,13 @@ export default function RootStackNavigator() {
     </Stack.Navigator>
   );
 }
+
+const styles = StyleSheet.create({
+  headerButton: {
+    padding: 8,
+    borderRadius: 8,
+  },
+  headerButtonPressed: {
+    opacity: 0.7,
+  },
+});
