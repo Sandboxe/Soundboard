@@ -30,11 +30,13 @@ This is a mobile app built using **Expo**. Follow the instructions below to view
    - A **QR code** will be displayed in the terminal or browser.
 
 ### Viewing the App:
-Once the app is running, you can view it by scanning the **QR code** found in the terminal. I couldn't be bothered to setup a permanent link/login to expo. 
+Once the app is running, you can view it by scanning the **QR code** found in the terminal. For those who don't want to clone the project to their personal computers, they can refer to the following QR code. 
+
+<img width="533" height="549" alt="Screenshot 2025-12-15 at 13 49 25" src="https://github.com/user-attachments/assets/ffc4cec2-fee8-4431-a964-01813733d57d" />
 
 ### Troubleshooting:
 - If the QR code doesn’t scan, make sure your device and computer are on the same Wi-Fi network.
-- If you have trouble opening the app, ensure that **Expo Go** is installed and updated to the latest version on your device.
+- If you have trouble opening the app, ensure that **Expo Go** is installed and updated to the latest version on your device (phone).
 
 ---
 
