@@ -36,7 +36,7 @@ Once the app is running, you can view it by scanning the **QR code** found in th
 
 ### Troubleshooting:
 - If the QR code doesn’t scan, make sure your device and computer are on the same Wi-Fi network.
-- If you have trouble opening the app, ensure that **Expo Go** is installed and updated to the latest version on your device (phone).
+- If you have trouble opening the app, ensure that **Expo Go** is installed and updated to the latest version on your device (phone), there are also more options to view the app if you clone the project to your local machine. 
 
 ---
 
