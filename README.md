@@ -12,8 +12,8 @@ This is a mobile app built using **Expo**. Follow the instructions below to view
 2. **Clone this repository**:
    - Clone the project to your local machine using Git:
      ```bash
-     git clone https://github.com/your-username/your-repo.git
-     cd your-repo
+     git clone https://github.com/Sandboxe/Soundboard/blob/main/README.md
+     cd Soundboard
      ```
 
 3. **Install dependencies**:
@@ -33,7 +33,7 @@ This is a mobile app built using **Expo**. Follow the instructions below to view
 Once the app is running, you can view it by scanning the **QR code** below or using the provided **link**:
 
 #### QR Code:
-Scan the QR code below with **Expo Go** to open the app:
+Scan the QR code below with your camera to open the app in **Expo Go**:
 
 ![QR Code](link-to-your-screenshot-or-qr-image.png)
 
