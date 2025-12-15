@@ -12,7 +12,7 @@ This is a mobile app built using **Expo**. Follow the instructions below to view
 2. **Clone this repository**:
    - Clone the project to your local machine using Git:
      ```bash
-     git clone https://github.com/Sandboxe/Soundboard/blob/main/README.md
+     git clone https://github.com/Sandboxe/Soundboard
      cd Soundboard
      ```
 
